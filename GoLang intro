@@ -1,0 +1,102 @@
+
+
+
+Go:- Go is a 
+            statically typed, 
+            compiled programming language 
+disigned at Google.
+
+Go is syntactically similar to C, but with
+                    memory safety,  (🤔🤔🤔)
+                    garbage collection, (which algorithem is used && how 🤔🤔🤔🤔 ??) 
+                    structural typing, (what is structure typing 🤔🤔)
+                    CSP style concurrency (why this one only and what is the CSP style 🤔🤔).
+                
+
+Paradigm:-   Multi-paradigm, concurrent, functional, imperative and object-oriented.
+
+imperative programming means change of state. In below has the detail explain in functional programming statement.
+
+It is an imperative programming language because functions are built out of statements,
+
+what is paradigm:-
+
+                Paradigm is a standard, perspective, or set of ideas. 
+    
+    A paradigm is a way of looking at something. when you change paradigms, you,re changing how you think about something.
+
+
+Multi-paradigm:-
+                A programming that supports both procedural and object-oriented programming.
+
+        ex:- Javascript, Python, Ruby, Java, PHP, Go
+    
+
+
+GO is multi-paradigm:-
+
+                Golang is multi-paradigm programming language. 
+
+    As a Golang programmer, why uses functinal programming?
+                Golang is not a functional language but has a lot of features that enable us to applies functional principle in development.
+
+
+
+Functional programming:-
+
+                    functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions
+        and avoids state and mutable data. In other words, 
+        functional programming promotes code with no side effects, no change of value in variables. 
+        It opposes imperative programming, which empathizes change of state. (*************************)
+
+                    . No mutable data (No side effect)
+                    . No state (no implicit, hidden state).
+                once assigned (value binding), a variable does not change its value.
+
+        Functional programming does not eliminate state, it just makes it visible and explicit. 
+
+        1. Functions are pure functions in the mathimatical sense: their output depend only on their inputs, there is no 'environment'.
+
+
+    Advantages:
+                1. Memoization
+                            cache results for previous function calls.
+                2. Idempotence
+                            same results regardless of how many times you call a function.
+                3. Modularization
+                4. Ease of debugging.
+                5. Parallelization
+                            function calls are independent.
+                6. Concurrence
+                        with no shared data, concurrence gets a lot simpler.
+
+As a golang programmer why uses functional programming ?
+
+; https://medium.com/@geisonfgfg/functional-go-bc116f4c96a4
+
+                Golang is not a functional language but has a lot of features that enable us to 
+        applies functional principles in the development, turning our code more elegant, concise, maintanable,
+        easier to understand and test.
+    
+            ex:-   don't update, Create - Arrays
+
+                        ; Wrong
+
+                        years := [4]int{2001, 2002}
+
+                        years[2] = 2003;
+                        years[3] = 2004
+
+                        ; Right
+
+                        years := [2]int{2001, 2002}
+
+                        allyears := append(years, 2003, [2]int{2004, 2005})
+   
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+                    
